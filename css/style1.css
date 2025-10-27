@@ -1,0 +1,154 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+h1 {
+  font: 22px/1.8 "Arial Narrow", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.7px;
+  padding: 0 20px 0 20px;
+  margin: 10px;
+  }
+h2 {
+  font: 18px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.6px;
+  font-weight: bold;
+  
+  }
+p {
+  font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+ 
+}
+.c1 {
+  text-align: center;
+  margin: auto;
+}
+
+.foot {
+  font: 12px/1.2 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center; 
+  margin: -10px;
+       
+  color: #888;          
+}
+
+form {
+  border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  max-width: 378px;
+
+  margin: 20px auto;  
+  background: #fff; 
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+input {
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0px 0px 0px 0px;
+  pointer-events: auto;
+}
+legend {
+  font: 16px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+  text-align: center;
+  width: 100%;
+  padding: 0 10px 3px 0px;
+  margin-bottom: 15px; 
+  margin-top: 10px;
+}
+.account-info {
+  padding: 12px 20px 0 20px; /* ИЗМЕНЕНО: отступы (убрали верхний, т.к. есть у legend) */
+  text-align: left;
+  font-weight: bold;
+  caret-color: #000; 
+  pointer-events: auto;
+}
+.account-info label {
+  color: #395870;
+  display: block;
+  margin-bottom: 5px; 
+  font-size: 14px;
+  line-height: 1.5;
+  position: relative;
+}
+.account-info label[name="password_confirm"] {
+    font-size: 16px;
+}
+
+.account-info input[type="text"],
+.account-info input[type="password"],
+.account-info select {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;
+  width: 100%;
+  padding: 0px 12px 6px 0px; 
+  caret-color: #49708f;
+  margin-bottom: 15px;
+  
+}
+.account-info input[name="password"],
+.account-info input[name="password_confirm"] {
+    padding: 4px;      /* увеличивает внутренний отступ, делает поле выше */
+    font-size: 16px;  
+    margin-bottom: 15px; /* расстояние до следующего label */
+}
+.account-info input[name="phone"]::placeholder {
+  font-size: 11px;
+  padding: 6px 15px 6px 2px;
+}
+.account-info input.email::placeholder {
+  padding: 0px 3px 3px 3px;
+  font-size: 12px;
+}
+.account-info select[name="country"]{
+   padding: 5px 0px 4px 8px;      /* увеличивает внутренний отступ, делает поле выше */
+    font-size: 12px;   /* увеличивает текст внутри */
+    margin-bottom: 10px;
+}
+.account-info input[name="first_name"],
+.account-info input[name="last_name"] {
+font-size: 12px;
+  padding: 3px 4px 2px 3px; /* верх, право, низ, лево */
+  height: 28px;             /* фиксированная высота поля */
+  box-sizing: border-box;
+}
+
+.account-action {
+  background: #f0f0f2;
+  border-top: 1px solid #c6c7cc;
+  padding: 20px; /* ДОБАВЛЕНО: внутренние отступы */
+}
+
+
+.account-action label {
+  display: block; 
+  margin-bottom: 0px;
+  font-size: 11px;
+  line-height: 1.4;
+  padding: 13px 0 0 10px;
+  color: #333; /* Чуть темнее текст */
+}
+
+.account-action .btn {
+  background: linear-gradient(#49708f, #293f50);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  margin: 11px auto 15px auto; 
+  padding: 8px 15px;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: bold; 
+}
