@@ -66,7 +66,7 @@ legend {
   margin-top: 10px;
 }
 .account-info {
-  padding: 12px 20px 0 20px; /* ИЗМЕНЕНО: отступы (убрали верхний, т.к. есть у legend) */
+  padding: 12px 20px 0 20px;
   text-align: left;
   font-weight: bold;
   caret-color: #000; 
@@ -99,9 +99,9 @@ legend {
 }
 .account-info input[name="password"],
 .account-info input[name="password_confirm"] {
-    padding: 4px;      /* увеличивает внутренний отступ, делает поле выше */
+    padding: 4px;      
     font-size: 16px;  
-    margin-bottom: 15px; /* расстояние до следующего label */
+    margin-bottom: 15px; 
 }
 .account-info input[name="phone"]::placeholder {
   font-size: 11px;
@@ -112,22 +112,22 @@ legend {
   font-size: 12px;
 }
 .account-info select[name="country"]{
-   padding: 5px 0px 4px 8px;      /* увеличивает внутренний отступ, делает поле выше */
-    font-size: 12px;   /* увеличивает текст внутри */
+   padding: 5px 0px 4px 8px;      
+    font-size: 12px;   
     margin-bottom: 10px;
 }
 .account-info input[name="first_name"],
 .account-info input[name="last_name"] {
 font-size: 12px;
-  padding: 3px 4px 2px 3px; /* верх, право, низ, лево */
-  height: 28px;             /* фиксированная высота поля */
+  padding: 3px 4px 2px 3px; 
+  height: 28px;            
   box-sizing: border-box;
 }
 
 .account-action {
   background: #f0f0f2;
   border-top: 1px solid #c6c7cc;
-  padding: 20px; /* ДОБАВЛЕНО: внутренние отступы */
+  padding: 20px; 
 }
 
 
@@ -137,7 +137,7 @@ font-size: 12px;
   font-size: 11px;
   line-height: 1.4;
   padding: 13px 0 0 10px;
-  color: #333; /* Чуть темнее текст */
+  color: #333; 
 }
 
 .account-action .btn {
@@ -152,3 +152,4 @@ font-size: 12px;
   border-radius: 5px;
   font-weight: bold; 
 }
+
