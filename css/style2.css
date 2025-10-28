@@ -13,22 +13,33 @@ h1 {
   text-align: left;
   color: #08487b;
   
-  letter-spacing: 2px;
+  letter-spacing: 1.59px;
   border-bottom: 2px solid #ccc;
   padding-bottom: 8px;
   margin-bottom: 10px;
   }
+  header h1 {
+    position: relative;
+    top: 10px; /* поднимает заголовок на 30px */
+}
+stronger {
+  font-weight: 600;
+}
  .item-container {
   display: flex;
   align-items: center; 
   gap: 10px; 
-  line-height: 14px;
-  letter-spacing: 0.1999px;
-  margin-top: -7px;
+  line-height: 1.15;
+  letter-spacing: 0.8px;
+  margin-top: -13px;
+  margin-top: 0px;
   padding: 0 0 0 10px;
+  font-size: 13px;
+  font-family: "Tahoma",Helvetica, Arial,  sans-serif;
 }
 
 .item-container img {
+  display: block;
   flex-shrink: 0; 
 }
 .form-section {
@@ -38,10 +49,12 @@ h1 {
   margin-bottom: 18px; 
 }
 
-  
+  .form-section .form-row label[for="education"] {
+    font-weight: 600;
+}
 
 .section-title {
-  font: 500 18px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 600 18px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #08487b;
   margin: 5px 0 15px 5px;
   border-bottom: 2px solid #eee;
