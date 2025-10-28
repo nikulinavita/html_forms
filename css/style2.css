@@ -51,11 +51,15 @@ stronger {
 
   .form-section .form-row label[for="education"] {
     font-weight: 600;
+    
 }
 
 .section-title {
-  font: 600 18px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #08487b;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  font-family: Tahoma, Verdana, sans-serif;
+  color: #4A76A8;
   margin: 5px 0 15px 5px;
   border-bottom: 2px solid #eee;
   padding-bottom: 15px;
@@ -111,9 +115,9 @@ select {
   margin-left: 0px;
 }
 .school-section .section-title {
-  font-family: "Arial Narrow", Helvetica, Arial, sans-serif;
-  font-size: 17px;
-  letter-spacing: 1px;  
+  font-family: "Tahoma" sans-serif, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.2px; 
   padding-bottom: 7px;
   padding-top: 17px;
   font-weight: 600;
@@ -131,13 +135,18 @@ select {
   padding: 0px 0px 0px 1px;
 }
 .university-section {
-  margin-top: -40px;
+  margin-top: -35px;
   padding: 0px 0px 0px 0px;
   
 }
 .university-section .section-title {
-  font-size: 13px; 
-  font-family: "Verdana", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.3; 
+  font-weight: 600;
+  color: #6a86a6
+
+
+  font-family: "Tahoma" sans-serif;
   margin-bottom: 8px;
 }
 .university-section .section-title label{
