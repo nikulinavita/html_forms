@@ -66,7 +66,7 @@ legend {
   margin-top: 10px;
 }
 .account-info {
-  padding: 12px 20px 0 20px;
+  padding: 12px 20px 0 20px; 
   text-align: left;
   font-weight: bold;
   caret-color: #000; 
@@ -83,9 +83,20 @@ legend {
 .account-info label[name="password_confirm"] {
     font-size: 16px;
 }
-
+.account-info input[type="email"].email {
+  padding-left: 4px;
+  padding-top: 5px;
+  font-size: 12px;
+}
+.account-info input[type="tel"].phone {
+  padding-left: 4px;
+  padding-top: 5px;
+  font-size: 11px;
+}
 .account-info input[type="text"],
 .account-info input[type="password"],
+.account-info input[type="email"],
+.account-info input[type="tel"],
 .account-info select {
   background: #fff;
   border: 1px solid #c6c7cc;
@@ -108,7 +119,7 @@ legend {
   padding: 6px 15px 6px 2px;
 }
 .account-info input.email::placeholder {
-  padding: 0px 3px 3px 3px;
+  padding: 0px 3px 3px 0px;
   font-size: 12px;
 }
 .account-info select[name="country"]{
@@ -119,9 +130,10 @@ legend {
 .account-info input[name="first_name"],
 .account-info input[name="last_name"] {
 font-size: 12px;
-  padding: 3px 4px 2px 3px; 
-  height: 28px;            
+  padding: 3px 4px 2px 5px; /* верх, право, низ, лево */
+  height: 28px;             /* фиксированная высота поля */
   box-sizing: border-box;
+  color: black
 }
 
 .account-action {
