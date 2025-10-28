@@ -12,6 +12,7 @@ h1 {
   font: 21px/1.8 "Arial Narrow", Helvetica, Arial, sans-serif;
   text-align: left;
   color: #08487b;
+  
   letter-spacing: 2px;
   border-bottom: 2px solid #ccc;
   padding-bottom: 8px;
@@ -21,10 +22,12 @@ h1 {
   display: flex;
   align-items: center; 
   gap: 10px; 
-  line-height: 1;
-  margin-top: -8px;
+  line-height: 14px;
+  letter-spacing: 0.1999px;
+  margin-top: -7px;
   padding: 0 0 0 10px;
 }
+
 .item-container img {
   flex-shrink: 0; 
 }
@@ -38,9 +41,9 @@ h1 {
   
 
 .section-title {
-  font: bold 18px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 18px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #08487b;
-  margin: 10px 0 16px 0;
+  margin: 5px 0 15px 5px;
   border-bottom: 2px solid #eee;
   padding-bottom: 15px;
   
@@ -99,20 +102,25 @@ select {
   font-size: 17px;
   letter-spacing: 1px;  
   padding-bottom: 7px;
-  padding-top: 15px;
+  padding-top: 17px;
+  font-weight: 600;
 }
 .school-section .form-row label {
-  margin-top: -12px;
+  margin-top: 0px;
   font-size: 13px;
-  padding: 10px 15px 0px 15px;
+  padding: 0px 5px 0px 26px;
+  margin-right: 0px;
+  flex-basis: auto;      
+  width: auto;
 }
 .school-section .form-row select {
   width: 168px;
-  padding: 0px 0px 0px 2px;
+  padding: 0px 0px 0px 1px;
 }
 .university-section {
   margin-top: -40px;
-  padding: 0px 0px 0px 5px;
+  padding: 0px 0px 0px 0px;
+  
 }
 .university-section .section-title {
   font-size: 15px; 
@@ -122,18 +130,27 @@ select {
 .university-section .section-title label{
   margin-top: -12px;
   font-size: 13px;
-  padding: 10px 15px 0px 15px;
-  
+  padding: 10px 15px 0px 5px;
+  flex-basis: auto;   /* чтобы label не занимал фиксированную ширину */
+  width: auto;
+}
+.university-section .form-row label {
+      flex-basis: auto;   /* чтобы label не занимал фиксированную ширину */
+  width: auto;        /* альтернатива flex-basis */
+  margin-right: 0px;  /* небольшой отступ до select */
+  text-align: right;
+  margin-left: 45px;  
 }
 
 .university-section .form-row select {
   width: 167px;
-  padding: 0px 0px 0px 2px;
+  padding: 0px 0px 0px 5px;
   margin-bottom: 5px;
   font-size: 13px; 
-  
   font-weight: normal
+  
 }
+
 .form-section:nth-of-type(2) .form-row {
   display: flex;
   align-items: center; 
@@ -165,7 +182,7 @@ select {
   color: #333;       
   padding: 3px 40px; 
   margin-top: -25px;
-   margin-left: -40px;
+   margin-left: -35px;
   background-color: #f9f9f9; 
   background: #f0f0f0; 
   border: 1px solid #999;
@@ -175,5 +192,9 @@ select {
 .submit-section .helper-text {
   flex-basis: 100%;     
   margin-top: 1px;       
-  margin-left: -40px;        
+  margin-left: -40px;   
+}
+.submit-section .helper-text a {
+  text-decoration: none;
+  
 }
